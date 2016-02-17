@@ -3,7 +3,7 @@ swift-itertools
 
 A port of Python's [`itertools`][itertools] and related things to Swift.
 
-    [itertools]: https://docs.python.org/3/library/itertools.html
+[itertools]: https://docs.python.org/3/library/itertools.html
 
 Background
 ==========
@@ -22,8 +22,8 @@ new uses for this functionality (e.g., see David Beazley's
 languages, like Scala and Clojure, have taken advantage of the
 experience of Haskell and Python to provide similar functionality.
 
-    [more-itertools]: https://github.com/erikrose/more-itertools
-	[gentricks]: http://www.dabeaz.com/generators-uk/
+[more-itertools]: https://github.com/erikrose/more-itertools
+[gentricks]: http://www.dabeaz.com/generators-uk/
 
 Swift's `Generator` protocol is almost identical to Python's
 `Iterator` protocol, allowing for the same style of
@@ -50,7 +50,7 @@ Writing this library has also given me a good opportunity to learn
 Swift. See the blog [Stupid Swift Ideas][] for some of what I've
 discovered along the way.
 
-    [Stupid Swift Ideas]: http://stupidswiftideas.blogspot.com
+[Stupid Swift Ideas]: http://stupidswiftideas.blogspot.com
 
 Static types and homogenous sequences
 =====================================
@@ -68,7 +68,7 @@ collections can be implemented either Java-style (by parameterizing on
 casting back and forth, general-purpose functions like these should
 work on generic, homogenous sequences.
 
-    [Generics]: https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/swift_programming_language/Generics.html
+[Generics]: https://developer.apple.com/library/prerelease/ios/documentation/swift/conceptual/swift_programming_language/Generics.html
 
 Because Swift attempts to be a stricter static language than Java or
 C#, more on the lines with C++ (or even Haskell), some familiarity
@@ -84,7 +84,7 @@ convertible to `U`. There doesn't seem to be any way to define such a
 constraint in Swift, so the corresponding functions require a function
 on type `T` itself.
 
-    [STL]: http://en.wikipedia.org/wiki/Standard_Template_Library
+[STL]: http://en.wikipedia.org/wiki/Standard_Template_Library
 	
 Similarly, while C++ makes it possible to define a function over a
 variable number of heterogeneous parameters (by using template
